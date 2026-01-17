@@ -94,6 +94,10 @@ img {
     width: 100%;
 }
 
+.btn i {
+    margin-right: 8px;
+}
+
 /* ===== NAVBAR ===== */
 .navbar {
     position: fixed;
@@ -126,7 +130,8 @@ img {
 }
 
 .logo-icon {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    color: var(--primary-green);
 }
 
 .nav-menu {
@@ -308,8 +313,19 @@ img {
 }
 
 .feature-icon {
-    font-size: 2rem;
+    width: 50px;
+    height: 50px;
+    background: var(--primary-green);
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-shrink: 0;
+}
+
+.feature-icon i {
+    font-size: 1.3rem;
+    color: white;
 }
 
 .feature-text h4 {
@@ -341,9 +357,11 @@ img {
     border: 2px dashed var(--accent-green);
 }
 
-.image-placeholder span {
+.image-placeholder i {
     font-size: 5rem;
     margin-bottom: 15px;
+    color: var(--primary-green);
+    opacity: 0.6;
 }
 
 .image-placeholder p {
@@ -400,7 +418,9 @@ img {
 }
 
 .terreno-icon {
-    font-size: 5rem;
+    font-size: 4rem;
+    color: var(--primary-green);
+    opacity: 0.7;
 }
 
 .terreno-badge {
@@ -518,15 +538,19 @@ img {
 }
 
 .info-icon {
-    font-size: 1.5rem;
     width: 50px;
     height: 50px;
-    background: var(--bg-light);
+    background: var(--primary-green);
     border-radius: var(--radius-sm);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
+}
+
+.info-icon i {
+    font-size: 1.2rem;
+    color: white;
 }
 
 .info-item h4 {
@@ -629,11 +653,24 @@ img {
 .footer-section ul a {
     color: rgba(255, 255, 255, 0.8);
     transition: var(--transition);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-section ul a i {
+    font-size: 0.8rem;
+    color: var(--accent-green);
 }
 
 .footer-section ul a:hover {
     color: var(--accent-green);
     padding-left: 5px;
+}
+
+.footer-section p i {
+    margin-right: 5px;
+    color: var(--accent-green);
 }
 
 .map-placeholder {
@@ -650,10 +687,11 @@ img {
     background: rgba(255, 255, 255, 0.15);
 }
 
-.map-placeholder span {
+.map-placeholder i {
     font-size: 2rem;
     display: block;
     margin-bottom: 5px;
+    color: var(--accent-green);
 }
 
 .map-placeholder p {
@@ -777,6 +815,8 @@ img {
 
 .modal-image .terreno-icon {
     font-size: 5rem;
+    color: var(--primary-green);
+    opacity: 0.7;
 }
 
 .modal-info {
@@ -798,6 +838,11 @@ img {
     font-size: 0.9rem;
     color: var(--text-light);
     margin-bottom: 5px;
+}
+
+.detail-label i {
+    margin-right: 5px;
+    color: var(--primary-green);
 }
 
 .detail-value {
@@ -834,8 +879,19 @@ img {
 }
 
 .payment-icon {
-    font-size: 2rem;
-    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+    background: var(--primary-green);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+}
+
+.payment-icon i {
+    font-size: 1.3rem;
+    color: white;
 }
 
 .payment-card h4 {
