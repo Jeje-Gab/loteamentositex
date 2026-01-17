@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loteamento Verde Chapecó - Seu Terreno dos Sonhos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">🌿</span>
+                <span class="logo-text">Verde Chapecó</span>
+            </a>
+            <button class="nav-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#terrenos">Terrenos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Loteamento Verde Chapecó</h1>
+            <p>Realize o sonho do seu terreno próprio no coração do oeste catarinense</p>
+            <a href="#terrenos" class="btn btn-primary">Conheça os Terrenos</a>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sobre o Empreendimento</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="sobre-content">
+                <div class="sobre-text">
+                    <h3>Um Novo Conceito de Morar em Chapecó</h3>
+                    <p>O <strong>Loteamento Verde Chapecó</strong> é um empreendimento inovador que une qualidade de vida, natureza e infraestrutura completa. Localizado em uma das regiões mais valorizadas de Chapecó, Santa Catarina, oferece terrenos amplos e bem planejados para você construir o lar dos seus sonhos.</p>
+                    <p>Com uma localização estratégica, você terá fácil acesso ao centro da cidade, hospitais, escolas, universidades e centros comerciais, tudo isso em um ambiente cercado de verde e tranquilidade.</p>
+
+                    <div class="features">
+                        <div class="feature-item">
+                            <div class="feature-icon">📍</div>
+                            <div class="feature-text">
+                                <h4>Localização Privilegiada</h4>
+                                <p>Bairro Efapi, a 10 minutos do centro</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🛣️</div>
+                            <div class="feature-text">
+                                <h4>Infraestrutura Completa</h4>
+                                <p>Ruas pavimentadas, água, luz e esgoto</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🌳</div>
+                            <div class="feature-text">
+                                <h4>Área Verde</h4>
+                                <p>Praças e espaços de lazer integrados</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🔒</div>
+                            <div class="feature-text">
+                                <h4>Segurança</h4>
+                                <p>Iluminação pública em todas as ruas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sobre-image">
+                    <div class="image-placeholder">
+                        <span>🏡</span>
+                        <p>Imagem do Empreendimento</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Terrenos Section -->
+    <section id="terrenos" class="terrenos">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossos Terrenos</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Escolha o lote ideal para construir seu futuro</p>
+            </div>
+
+            <div class="carousel-container">
+                <button class="carousel-btn prev" aria-label="Anterior">❮</button>
+                <div class="carousel">
+                    <div class="carousel-track">
+                        <!-- Terreno 1 -->
+                        <div class="terreno-card" data-terreno="1">
+                            <div class="terreno-image">
+                                <div class="terreno-badge">Disponível</div>
+                                <span class="terreno-icon">🏞️</span>
+                            </div>
+                            <div class="terreno-info">
+                                <h3>Lote 01 - Quadra A</h3>
+                                <p class="terreno-size">300 m²</p>
+                                <p class="terreno-price">Entrada: <strong>R$ 15.000,00</strong></p>
+                                <button class="btn btn-secondary">Ver Detalhes</button>
+                            </div>
+                        </div>
+
+                        <!-- Terreno 2 -->
+                        <div class="terreno-card" data-terreno="2">
+                            <div class="terreno-image">
+                                <div class="terreno-badge">Disponível</div>
+                                <span class="terreno-icon">🏞️</span>
+                            </div>
+                            <div class="terreno-info">
+                                <h3>Lote 02 - Quadra A</h3>
+                                <p class="terreno-size">350 m²</p>
+                                <p class="terreno-price">Entrada: <strong>R$ 17.500,00</strong></p>
+                                <button class="btn btn-secondary">Ver Detalhes</button>
+                            </div>
+                        </div>
+
+                        <!-- Terreno 3 -->
+                        <div class="terreno-card" data-terreno="3">
+                            <div class="terreno-image">
+                                <div class="terreno-badge">Disponível</div>
+                                <span class="terreno-icon">🏞️</span>
+                            </div>
+                            <div class="terreno-info">
+                                <h3>Lote 03 - Quadra B</h3>
+                                <p class="terreno-size">400 m²</p>
+                                <p class="terreno-price">Entrada: <strong>R$ 20.000,00</strong></p>
+                                <button class="btn btn-secondary">Ver Detalhes</button>
+                            </div>
+                        </div>
+
+                        <!-- Terreno 4 -->
+                        <div class="terreno-card" data-terreno="4">
+                            <div class="terreno-image">
+                                <div class="terreno-badge esquina">Esquina</div>
+                                <span class="terreno-icon">🏞️</span>
+                            </div>
+                            <div class="terreno-info">
+                                <h3>Lote 04 - Quadra B</h3>
+                                <p class="terreno-size">450 m²</p>
+                                <p class="terreno-price">Entrada: <strong>R$ 25.000,00</strong></p>
+                                <button class="btn btn-secondary">Ver Detalhes</button>
+                            </div>
+                        </div>
+
+                        <!-- Terreno 5 -->
+                        <div class="terreno-card" data-terreno="5">
+                            <div class="terreno-image">
+                                <div class="terreno-badge">Disponível</div>
+                                <span class="terreno-icon">🏞️</span>
+                            </div>
+                            <div class="terreno-info">
+                                <h3>Lote 05 - Quadra C</h3>
+                                <p class="terreno-size">320 m²</p>
+                                <p class="terreno-price">Entrada: <strong>R$ 16.000,00</strong></p>
+                                <button class="btn btn-secondary">Ver Detalhes</button>
+                            </div>
+                        </div>
+
+                        <!-- Terreno 6 -->
+                        <div class="terreno-card" data-terreno="6">
+                            <div class="terreno-image">
+                                <div class="terreno-badge esquina">Esquina</div>
+                                <span class="terreno-icon">🏞️</span>
+                            </div>
+                            <div class="terreno-info">
+                                <h3>Lote 06 - Quadra C</h3>
+                                <p class="terreno-size">500 m²</p>
+                                <p class="terreno-price">Entrada: <strong>R$ 30.000,00</strong></p>
+                                <button class="btn btn-secondary">Ver Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn next" aria-label="Próximo">❯</button>
+            </div>
+
+            <div class="carousel-dots"></div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <div class="section-header">
+                <h2>Entre em Contato</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Tire suas dúvidas e agende uma visita</p>
+            </div>
+
+            <div class="contato-content">
+                <div class="contato-info">
+                    <h3>Fale Conosco</h3>
+                    <p>Estamos prontos para ajudá-lo a encontrar o terreno perfeito para você e sua família.</p>
+
+                    <div class="info-item">
+                        <span class="info-icon">📞</span>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p>(49) 99999-9999</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <span class="info-icon">📧</span>
+                        <div>
+                            <h4>E-mail</h4>
+                            <p>contato@verdechapeco.com.br</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <span class="info-icon">🕐</span>
+                        <div>
+                            <h4>Horário de Atendimento</h4>
+                            <p>Seg - Sex: 8h às 18h<br>Sáb: 8h às 12h</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contato-form" id="contatoForm">
+                    <div class="form-group">
+                        <label for="nome">Nome Completo *</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">E-mail *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefone">Telefone *</label>
+                            <input type="tel" id="telefone" name="telefone" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="interesse">Interesse</label>
+                        <select id="interesse" name="interesse">
+                            <option value="">Selecione uma opção</option>
+                            <option value="visita">Agendar visita</option>
+                            <option value="informacoes">Mais informações</option>
+                            <option value="valores">Valores e condições</option>
+                            <option value="outro">Outro assunto</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva sua mensagem aqui..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-full">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>
+                        <span class="logo-icon">🌿</span>
+                        Verde Chapecó
+                    </h3>
+                    <p>Seu novo endereço em Chapecó, SC. Terrenos com infraestrutura completa e localização privilegiada.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#terrenos">Terrenos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Localização</h4>
+                    <p>📍 Bairro Efapi<br>
+                    Chapecó - SC<br>
+                    CEP: 89809-000</p>
+                    <div class="map-placeholder">
+                        <span>🗺️</span>
+                        <p>Ver no Mapa</p>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">📘</a>
+                        <a href="#" class="social-link" aria-label="Instagram">📷</a>
+                        <a href="#" class="social-link" aria-label="WhatsApp">💬</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Loteamento Verde Chapecó. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal" id="terrenoModal">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Fechar">&times;</button>
+            <div class="modal-header">
+                <h2 id="modalTitle">Detalhes do Terreno</h2>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <span class="terreno-icon">🏞️</span>
+                </div>
+                <div class="modal-info">
+                    <div class="modal-detail">
+                        <span class="detail-label">Metragem:</span>
+                        <span id="modalSize" class="detail-value">300 m²</span>
+                    </div>
+                    <div class="modal-detail">
+                        <span class="detail-label">Valor Total:</span>
+                        <span id="modalTotal" class="detail-value">R$ 150.000,00</span>
+                    </div>
+                    <div class="modal-detail">
+                        <span class="detail-label">Entrada:</span>
+                        <span id="modalEntrada" class="detail-value">R$ 15.000,00</span>
+                    </div>
+                </div>
+
+                <div class="payment-options">
+                    <h3>Formas de Pagamento</h3>
+                    <div class="payment-grid">
+                        <div class="payment-card">
+                            <div class="payment-icon">💰</div>
+                            <h4>À Vista</h4>
+                            <p>10% de desconto no valor total</p>
+                        </div>
+                        <div class="payment-card">
+                            <div class="payment-icon">📋</div>
+                            <h4>Parcelado Direto</h4>
+                            <p>Até 60x sem juros</p>
+                        </div>
+                        <div class="payment-card">
+                            <div class="payment-icon">🏦</div>
+                            <h4>Financiamento</h4>
+                            <p>Parceria com principais bancos</p>
+                        </div>
+                        <div class="payment-card">
+                            <div class="payment-icon">💳</div>
+                            <h4>Cartão de Crédito</h4>
+                            <p>Entrada em até 12x</p>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#contato" class="btn btn-primary btn-full modal-cta">Tenho Interesse</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
